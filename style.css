@@ -1,3 +1,39 @@
-h1 {
-    color: green;
+:root {
+    --size-of-logoText: 150px;
+}
+
+
+.main-container {
+    display: flex;
+}
+
+.left-side {
+    flex: 1 1 0;
+}
+
+.right-side {
+    flex: 4 1 0;
+}
+
+#logo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.4;
+    height: 200px;
+
+    position: absolute;
+    top: 200px;
+    width: 630px;
+}
+
+#logo-text > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#logo-text > * {
+    height: var(--size-of-logoText);
 }
