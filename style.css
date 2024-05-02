@@ -37,3 +37,7 @@
 #logo-text > * {
     height: var(--size-of-logoText);
 }
+
+#user-input > div {
+    display: flex;
+}
